@@ -1,0 +1,42 @@
+
+/* 
+Admin - propositions.php
+*/
+#propositions .table {
+    overflow: hidden;
+}
+
+.table-responsive, .table, tr:last-child {
+    border-radius: 0.5rem;
+}
+
+.table-dark thead {
+    background-color: #25292D;
+}
+
+.table td, .table th {
+    padding: .5rem;
+}
+
+.form-inline-grp .form-group select{
+    border-radius: 30px 0 0 30px;
+    border-right: 0 none;
+    background-color: #f2f2f2;
+}
+.form-inline-grp .form-group #btnSelectCategorie {
+    border-radius: 0 30px 30px 0;
+}
+
+.section-categories{
+    padding: 15px 0;
+}
+
+img.card-img-top:hover {
+    /* height: 100%;
+    width: 100%; */
+    transform: scale(1.9);
+}
+
+.pagination .page-item.disabled{
+color :rgba(0,0,0,.125);
+}

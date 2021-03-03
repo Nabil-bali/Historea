@@ -1,0 +1,37 @@
+I) AVANCEMENT DU PROJET
+
+Mise en place de l'architecture MCV
+création du controller
+- appel de la vue questionForm via le controller depuis le route (index.php)
+Installation du theme CSS : Now ui kit Master
+Création du header.php dans dans le dossier /wiew
+
+Envoi de question fonctionel
+
+- vérifier si tous les champs ont été remplis
+- vérifier que le champs question ne dépasse pas 500 caractères
+- verifer que les chams réponse ne dépasse pas 50 caractères
+- passer les champs reçus en (hmlspecialchars)
+
+- setter, getters, constutor, ect...
+- instanciation d'un objet (lorsque le formulaire est soumis), puis l'objet est envoyé à la BDD.
+
+II) CE QU'IL RESTE A FAIRE
+
+session connexion (is_connect)
+sesions users (id, pseudo, etc...)
+enregistrer un score en étant connecté
+
+deconnexion
+
+afficher les scores des utilisateurs (colonne 'Pseudo')
+
+page admin
+
+Créer plusieurs quizz (fonction quizz en fonction de la catégorie)
+
+
+
+
+
+
